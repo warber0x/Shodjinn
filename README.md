@@ -11,13 +11,10 @@ It supports two modes:
 - Normal mode: Displays detailed logs
 - Pipe mode: Only prints the API key for use with other programs or scripts.
 
-Workflow:
----------
-- Automatic temporary email generation.
-- Shodan registration and activation link retrieval.
-- Login with session persistence.
+What the script does:
+---------------------
+- Create, activate and login with a temporary account
 - API key extraction from the account page.
-- Pipe mode for automation and integration with other scripts.
 
 Dependencies:
 -------------
